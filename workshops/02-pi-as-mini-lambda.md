@@ -106,6 +106,14 @@
 
 ---
 
+## Team presentations (15 min)
+
+- **Goal:** Teams show their Pi “function” and/or their deployed Lambda.
+- **Format:** 2–3 min per team: demo HTTP/cron trigger on the Pi, then the same idea in Lambda (curl or browser). One thing that worked, one gotcha.
+- **If many teams:** Pick 4–5 to present, or quick round: “who got Lambda deployed? Show the URL.”
+
+---
+
 ## Example code snippets
 
 ### Minimal Flask “function” (Pi)

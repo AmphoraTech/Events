@@ -1,6 +1,6 @@
 # Workshop 7: Tiny “distributed system” — Pis talking to each other
 
-**Format:** 30 min theory + 1h30 hands-on · **Hardware:** Raspberry Pi 3 per team · **Prize:** Pi for first team with full “ring” or “broadcast” working
+**Format:** 35 min theory + 1h25 hands-on + 15 min team presentations · **Hardware:** Raspberry Pi 3 per team · **Prize:** Pi for first team with full “ring” or “broadcast” working · **Total:** ~2h15
 
 ---
 
@@ -20,7 +20,7 @@
 
 ---
 
-## Theory (30 min)
+## Theory (35 min)
 
 ### 1. Services and APIs (≈8 min)
 
@@ -47,13 +47,15 @@
 
 ### 5. What “working” means (≈5 min)
 
+### 6. Buffer / Q&A (≈5 min)
+
 - **Minimal service:** GET / returns something (e.g. `{"team": "A", "counter": 0}`). Optional: POST /ping with body that gets forwarded.
 - **Ring:** A message (e.g. a token string) is passed from Pi 1 → 2 → 3 → … → N → 1. Each node receives, logs or increments, sends to next. “Working” = full round-trip without crash.
 - **Broadcast:** One node sends the same message to every other node (each does GET or POST); all receive it. “Working” = every node got the message once.
 
 ---
 
-## Hands-on (1h30)
+## Hands-on (1h25)
 
 ### Step 1: Minimal service on each Pi (≈25 min)
 
@@ -101,6 +103,14 @@
 - **Debrief:** What would you do in production? (Timeouts, retries, circuit breaker, skip node, etc.) No implementation required; just discussion.
 
 **Prize:** Pi for first team with full ring or full broadcast working (facilitator verifies by checking logs or watching a demo).
+
+---
+
+## Team presentations (15 min)
+
+- **Goal:** Teams show their service, their “call each other” flow, and optionally the ring or broadcast in action.
+- **Format:** 2–3 min per team: demo GET / or /ping from another Pi; if they did ring/broadcast, show one round. One thing that broke, one thing they’d do next.
+- **If many teams:** Pick 4–5 to present, or quick round: “who has the ring working? Show the token going round.”
 
 ---
 

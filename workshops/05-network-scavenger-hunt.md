@@ -1,6 +1,6 @@
 # Workshop 5: Network scavenger hunt — discover and map
 
-**Format:** 30 min theory + 1h30 hands-on · **Hardware:** Raspberry Pi 3 per team (+ optional “mystery” devices) · **Prize:** Pi for winning team
+**Format:** 35 min theory + 1h25 hands-on + 15 min team presentations · **Hardware:** Raspberry Pi 3 per team (+ optional “mystery” devices) · **Prize:** Pi for winning team · **Total:** ~2h15
 
 ---
 
@@ -20,7 +20,7 @@
 
 ---
 
-## Theory (30 min)
+## Theory (35 min)
 
 ### 1. Discovery on a LAN (≈8 min)
 
@@ -48,12 +48,14 @@
 
 ### 5. What “correct map” means (≈5 min)
 
+### 6. Buffer / Q&A (≈5 min)
+
 - **Deliverable:** A list: for each device (IP), at least one open port, and optionally the guessed service (e.g. 22=SSH, 80=HTTP). Order doesn’t matter; completeness and correctness do.
 - **Scoring:** First team to submit a map that matches the answer key wins. Tie-break: optional “service guess” accuracy.
 
 ---
 
-## Hands-on (1h30)
+## Hands-on (1h25)
 
 ### Phase 1: Find all hosts (≈25 min)
 
@@ -77,10 +79,14 @@
 
 1. **Submission:** Each team submits a single map (e.g. CSV or table): IP, port, service (optional). Timestamp or order of submission for ties.
 2. **Answer key:** Facilitator has the canonical list (all expected IPs and at least one open port per device). Optionally include expected service names.
-3. **Scoring:** Full marks = all devices present with at least one correct port. Deduct for wrong ports or missing devices. First correct (or highest score) wins.
-4. **Wrap-up:** Short debrief — which tool was most useful; how would you automate this; why visibility matters.
+3. **Scoring:** Full marks = all devices present with at least one correct port. Deduct for wrong ports or missing devices. First correct (or highest score) wins. **Prize:** Raspberry Pi for the winning team.
 
-**Prize:** Raspberry Pi for the winning team.
+---
+
+## Team presentations (15 min)
+
+- **Goal:** Teams briefly share how they found devices, which tools they used, and one surprise or tip.
+- **Format:** 2–3 min per team (or 4–5 teams if many): show their map, mention nmap vs arp, one “aha” moment. Facilitator: short debrief — which tool was most useful; how would you automate this; why visibility matters.
 
 ---
 

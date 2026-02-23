@@ -1,6 +1,6 @@
 # Workshop 6: “Event to action” — triggers and side effects on the Pi
 
-**Format:** 30 min theory + 1h30 hands-on · **Hardware:** Raspberry Pi 3 per team (no extra hardware) · **Prize:** Pi for first cloud-triggered action or most creative trigger chain
+**Format:** 35 min theory + 1h25 hands-on + 15 min team presentations · **Hardware:** Raspberry Pi 3 per team (no extra hardware) · **Prize:** Pi for first cloud-triggered action or most creative trigger chain · **Total:** ~2h15
 
 ---
 
@@ -19,7 +19,7 @@
 
 ---
 
-## Theory (30 min)
+## Theory (35 min)
 
 ### 1. Event-driven: trigger → action (≈8 min)
 
@@ -46,12 +46,14 @@
 
 ### 5. Optional: cloud trigger (≈5 min)
 
+### 6. Buffer / Q&A (≈5 min)
+
 - **Idea:** Something in the cloud (e.g. Lambda invoked by API Gateway) sends an HTTP request to the Pi (or to a tunnel like ngrok that forwards to the Pi). Pi receives request → performs action (e.g. writes to log, calls another API) → returns 200. So “cloud event → Pi → action.”
 - **Caveat:** Pi must be reachable (same network as caller, or tunnel). Ngrok/cloudflared can expose local port; use with care (short-lived URL, no secrets in URL).
 
 ---
 
-## Hands-on (1h30)
+## Hands-on (1h25)
 
 ### Part 1: Action via HTTP (≈35 min)
 
@@ -118,6 +120,14 @@
 3. **Demo:** Show “cloud event → Pi → action” (e.g. show log or state file updated) and submit for the prize.
 
 **Prize:** Pi for first team with working cloud-triggered action, or for “most creative trigger chain” (e.g. MQTT + file + HTTP).
+
+---
+
+## Team presentations (15 min)
+
+- **Goal:** Teams show their trigger chain (HTTP, cron, file, or cloud) and the resulting action (log, state file, or API call).
+- **Format:** 2–3 min per team: demo one trigger; show log or state file. One thing that worked, one thing they’d add.
+- **If many teams:** Pick 4–5 to present, or quick round: “who got cloud trigger working?”
 
 ---
 

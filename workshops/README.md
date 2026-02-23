@@ -14,20 +14,20 @@ Amphora tech events are structured sessions where people learn by doing: short t
 
 ### Hands-on workshops (2 hours)
 
-**Format:** 30 min theory + 1h30 hands-on. One topic per event; clear learning objectives and a prep checklist.
+**Format:** 35 min theory + 1h25 hands-on + 15 min team presentations. One topic per event; clear learning objectives and a prep checklist. **Total:** ~2h15 per workshop (1–7). Workshop 8: 35 min + 45 min + 2h + 25 min team demos ≈ 3h30.
 
 **Good for:** Security, cloud, automation, networking, distributed systems. Often use **Raspberry Pi 3** per team (no extra hardware required). Pis can be offered as prizes.
 
 | # | Workshop | Document | Format / Prize |
 |---|----------|----------|----------------|
-| 1 | Capture the Flag (CTF) on the Pi | [01-ctf-on-the-pi.md](01-ctf-on-the-pi.md) | 2h · Winner gets Pi |
-| 2 | Pi as “mini Lambda” — event-driven to AWS | [02-pi-as-mini-lambda.md](02-pi-as-mini-lambda.md) | 2h · First Lambda / best design |
-| 3 | Pi as IoT gateway — sensor to cloud | [03-pi-as-iot-gateway.md](03-pi-as-iot-gateway.md) | 2h · First E2E / best dashboard |
-| 4 | Lightweight containers on Pi | [04-containers-on-pi.md](04-containers-on-pi.md) | 2h · Smallest image / best trigger |
-| 5 | Network scavenger hunt | [05-network-scavenger-hunt.md](05-network-scavenger-hunt.md) | 2h · First correct map |
-| 6 | “Event to action” (triggers and side effects) | [06-event-to-action.md](06-event-to-action.md) | 2h · First cloud-triggered action |
-| 7 | Tiny distributed system — Pis talking | [07-distributed-pis.md](07-distributed-pis.md) | 2h · First ring/broadcast |
-| 8 | Open ideas with Raspberry Pi | [08-open-ideas-raspberry.md](08-open-ideas-raspberry.md) | 30 min presentation + 45 min kickstart + 2h tinkering · Optional: best demo / raffle |
+| 1 | Capture the Flag (CTF) on the Pi | [01-ctf-on-the-pi.md](01-ctf-on-the-pi.md) | ~2h15 · Winner gets Pi |
+| 2 | Pi as “mini Lambda” — event-driven to AWS | [02-pi-as-mini-lambda.md](02-pi-as-mini-lambda.md) | ~2h15 · First Lambda / best design |
+| 3 | Pi as IoT gateway — sensor to cloud | [03-pi-as-iot-gateway.md](03-pi-as-iot-gateway.md) | ~2h15 · First E2E / best dashboard |
+| 4 | Lightweight containers on Pi | [04-containers-on-pi.md](04-containers-on-pi.md) | ~2h15 · Smallest image / best trigger |
+| 5 | Network scavenger hunt | [05-network-scavenger-hunt.md](05-network-scavenger-hunt.md) | ~2h15 · First correct map |
+| 6 | “Event to action” (triggers and side effects) | [06-event-to-action.md](06-event-to-action.md) | ~2h15 · First cloud-triggered action |
+| 7 | Tiny distributed system — Pis talking | [07-distributed-pis.md](07-distributed-pis.md) | ~2h15 · First ring/broadcast |
+| 8 | Open ideas with Raspberry Pi | [08-open-ideas-raspberry.md](08-open-ideas-raspberry.md) | ~3h30 · Optional: best demo / raffle |
 
 **Practical notes for Pi workshops:** Pi 3 has 1 GB RAM. Pre-flash one SD image per workshop to save time. Teams of 2–3 work well (solo fine for #8). No LEDs or extra hardware needed.
 

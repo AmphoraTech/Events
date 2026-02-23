@@ -106,6 +106,14 @@
 
 ---
 
+## Team presentations (15 min)
+
+- **Goal:** Teams show their container trigger (HTTP, file, or cron) and optionally image size or “handler swap.”
+- **Format:** 2–3 min per team: demo one trigger in action; mention image size or creative trigger if applicable.
+- **If many teams:** Pick 4–5 to present, or quick round: “who has run-on-request working? Who tried file trigger?”
+
+---
+
 ## Example Dockerfile and app (minimal)
 
 ```dockerfile

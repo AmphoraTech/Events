@@ -90,6 +90,14 @@
 
 ---
 
+## Team presentations (15 min)
+
+- **Goal:** Teams show their pipeline (sensor → POST) and optionally their dashboard.
+- **Format:** 2–3 min per team: show one payload in the cloud or one dashboard view; one thing that worked, one thing they’d improve.
+- **If many teams:** Pick 4–5 to present, or quick round: “who has data in the cloud? Who has a dashboard?”
+
+---
+
 ## Example code snippets
 
 ### Simulated sensor (file output)

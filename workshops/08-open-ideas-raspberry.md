@@ -1,6 +1,6 @@
 # Workshop 8: Open ideas with Raspberry Pi
 
-**Format:** 30 min presentation + 45 min kickstart + 2h tinkering · **Hardware:** Raspberry Pi 3 per team · **Prize:** Optional (e.g. Pi for “most creative”, “best demo”, or raffle)
+**Format:** 35 min presentation + 45 min kickstart + 2h tinkering + 25 min team demos · **Hardware:** Raspberry Pi 3 per team · **Prize:** Optional (e.g. Pi for “most creative”, “best demo”, or raffle) · **Total:** ~3h30
 
 ---
 
@@ -8,11 +8,12 @@
 
 | Block | Duration | Purpose |
 |-------|----------|---------|
-| **Presentation** | 30 min | Intro to the Pi, what’s possible, and the open ideas list. Show a couple of quick demos if you have them. |
+| **Presentation** | 35 min | Intro to the Pi, what’s possible, and the open ideas list. Show a couple of quick demos if you have them. Includes short Q&A. |
 | **Kickstart** | 45 min | Choose an idea, get the Pi booted and on the network, install one or two things, run a “hello world” for that idea (e.g. serve a page, send one MQTT message, log an event). |
 | **Tinkering** | 2h | Open-ended: deepen the chosen idea, combine two ideas, or go off in a direction of your own. No fixed script — explore, break things, ask for help. |
+| **Team demos** | 25 min | Voluntary 2–3 min per team: what you built, what you learned, what broke. Sign up or quick round. Optional prize for “most creative” or “best demo.” |
 
-**Total:** ~3h15 (with short breaks as needed).
+**Total:** ~3h30 (with short breaks as needed).
 
 ---
 
@@ -33,7 +34,7 @@
 
 ---
 
-## Presentation (30 min)
+## Presentation (35 min)
 
 **Goal:** Set context and inspiration. Use the Pi live if possible (e.g. one Pi on the big screen).
 
@@ -44,9 +45,10 @@
 
 ### 2. What we’ll do today (≈5 min)
 
-- **30 min:** This presentation + overview of open ideas.
+- **35 min:** This presentation + overview of open ideas.
 - **45 min:** Pick an idea, get the Pi running, do a minimal “hello world” for that idea.
-- **2h:** Tinker. Go deeper, combine ideas, or try something else. Optional 5‑min demos at the end.
+- **2h:** Tinker. Go deeper, combine ideas, or try something else.
+- **25 min:** Team demos — voluntary 2–3 min per team at the end.
 
 ### 3. Open ideas overview (≈15 min)
 
@@ -55,7 +57,7 @@
 
 ### 4. Logistics (≈5 min)
 
-- How to get the roster (team ↔ Pi IP). How to get help (facilitator, Slack, sticky notes). Where to find docs (pin a short link list). Optional: “demo slot” sign-up for the last 20 minutes.
+- How to get the roster (team ↔ Pi IP). How to get help (facilitator, Slack, sticky notes). Where to find docs (pin a short link list). “Demo slot” sign-up or reminder: 25 min team demos at the end.
 
 ---
 
@@ -129,10 +131,8 @@ By the end of the 45 min, each team should have “one thing working” for thei
 
 - **No fixed script.** Teams (or individuals) deepen their idea, try a second idea, or go in a new direction.
 - **Facilitator role:** Unblock (network, permissions, missing packages), give short tips, point to docs. Don’t lead step-by-step — let people explore.
-- **Optional:**  
-  - Short “how’s it going?” check at ~1h (one sentence per team).  
-  - Last 20–30 min: voluntary 2–3 min demos (what you built, what you learned, what broke).
-- **Optional prize:** Pi or small prize for “most creative,” “best demo,” or raffle among everyone who demos.
+- **Optional:** Short “how’s it going?” check at ~1h (one sentence per team).
+- **Team demos (25 min):** Dedicated block at the end. Voluntary 2–3 min per team: what you built, what you learned, what broke. Sign up on a sheet or quick round. Optional prize: Pi or small prize for “most creative,” “best demo,” or raffle among everyone who demos.
 
 ---
 
